@@ -6,7 +6,8 @@ const port = process.env.PORT || 3000;
 const plantsData = [
   {
     id: '1',
-    name: 'Aloe Vera',
+    name: 'Aloe Veras',
+    image: 'https://www.aloeveraaustralia.com.au/wp-content/uploads/2021/03/1463934-400x225.jpg', // Replace with actual image URL
     diseasesCured: [
       'Treats burns',
       'Helps heal wounds',
@@ -26,6 +27,7 @@ const plantsData = [
   {
     id: '2',
     name: 'Lavender',
+    image: 'https://pacificscents.com.au/wp-content/uploads/2017/08/lavender-flowers.jpg', // Replace with actual image URL
     diseasesCured: [
       'Reduces anxiety',
       'Relieves headaches',
